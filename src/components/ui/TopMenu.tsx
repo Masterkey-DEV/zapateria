@@ -22,16 +22,16 @@ export const TopMenu = () => {
       {/* Opciones de menú */}
       <div className="hidden items-center sm:flex">
         <a
-          href="https://enlace-externo-comprar.com"
+          href="https://wa.link/z38vai"
           className={menuItemClass}
           target="_blank"
           rel="noopener noreferrer"
         >
           <TiShoppingCart className="inline h-5 w-5" /> Comprar
         </a>
-        <Link href="/contacto" className={menuItemClass}>
+        <a href="https://wa.link/2la1qf" className={menuItemClass}>
           <FiPhoneCall className="inline h-5 w-5" /> Contacto
-        </Link>
+        </a>
         <Link href="/miPage" className={menuItemClass}>
           <RiPagesLine className="inline h-5 w-5" /> Mi página
         </Link>

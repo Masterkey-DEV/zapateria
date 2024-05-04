@@ -31,7 +31,7 @@ export default function Producto({ params }: Props) {
           {product.productName}
         </h1>
         <p className="mb-5 text-lg">${product.productPrice}</p>
-        <button className="btn-primary my-5">Comprar</button>
+        <a href="https://wa.link/z38vai" className="btn-primary my-5">Comprar</a>
         <h3 className="text-sm font-bold">Descripcion</h3>
         <p className="font-light">descripcion del producto</p>
       </div>
